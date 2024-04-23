@@ -2,6 +2,10 @@
     background-color: #f0eaea;
 }
 
+:root{
+    --color: #0b724b;
+}
+
 .hero__nav_container {
 display: flex; 
 align-items: center; 
@@ -9,7 +13,7 @@ justify-content: space-between;
 }
 
 .hero__name{
-    color: #0b724b;
+    color : var(--color)
     font-weight: bold;
     font-size: larger;
 }
@@ -47,11 +51,16 @@ justify-content: space-between;
 .hero__title {
     align-items: center; 
     width: 50%; 
-    color: #0b724b;
-    font-size: 30px; 
+    color: #000000;
+    font-size: 50px; 
     text-align: left; 
     align-items: center;
     padding: 5%;
+    font-weight: bold;
+}
+
+.title__span{
+    color: #0b724b;
 }
 
 .hero__estrella {
