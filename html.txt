@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Centro comunitario</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <!-- <header>
+        <h1 align="center">Hola, esto es un h1</h1>
+        <h2 align="center">Hola, esto es un h2</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus consequatur delectus nam, facere repudiandae corporis. <strong> Ea facere aliquid commodi</strong>, fugiat quia, explicabo <em> placeat voluptatibus</em> adipisci totam cum quos.</p>
+        <ul type="square">
+            <li>Calentar el agua a 80 grados</li>
+            <ol type="" start="5">
+                <li onclick="length">Hola</li>             
+                <li>Chao</li>
+                <li>Item</li>
+            </ol>
+            <li>Limpiar el mate</li>
+        </ul>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <span style="color: aliceblue; background-color: blueviolet;"> ullam quis expedita ipsum accusamus</span>, praesentium explicabo ab nisi magnam delectus reprehenderit nam cumque a, voluptatibus voluptate non nostrum? Aliquam, recusandae.</p>
+        <img src="/pasillo/perfil.jpg" alt="Foto de perfil" width="200" height="200" title="Foto perfil" >
+    </header>
+    <nav>
+
+    </nav>
+    <footer>
+        
+    </footer> -->
+    <header class="hero">
+      <nav class="hero__nav container" style="display: flex; align-items: center; justify-content: space-between;">
+        <figure class="hero__logo" style="display: flex;">
+          <img src="./pasillo/stars.svg" alt="" class="hero__estrella" />
+          <p class="hero__name" align="center">Centro comunitario</p>
+        </figure>
+        <div class="hero__links" style="display: flex; gap: 30px;">
+          <a href="#" class="hero__link" style="text-decoration: none; color: #09c17b;">Inicio</a>
+          <a href="./nosotros.html" class="hero__link" style="text-decoration: none; color: #09c17b;">Nosotros</a>
+          <a href="./contacto.html" class="hero__link" style="text-decoration: none; color: #09c17b;">Contacto</a>
+        </div>
+      </nav>
+    </header>
+    <section>
+      <div class="hero__main" style="display: flex; align-items: center;">
+        <h1 class="hero__title" align="center" style="width: 50%; color: #09c17b; font-size: 30px; text-align: left; ">Tu centro comunitario local</h1>
+        <img src="./pasillo/centro.jpg" style="width: 50%"; class="hero__estrella" />
+      </div>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic commodi
+        quas magnam quo. In sunt, voluptate minima ad dignissimos tempore iure
+        incidunt repudiandae dicta exercitationem ipsam commodi earum cumque
+        itaque saepe veritatis ea, recusandae fugiat, excepturi labore quis odit
+        inventore! Fuga minus error sed vero aperiam impedit non, odit molestias
+        explicabo nobis molestiae placeat vitae quae consequatur nihil quidem
+        magnam illum amet vel voluptate exercitationem adipisci quos quis
+        reiciendis. Voluptates et veniam dolor voluptas impedit minima
+        asperiores excepturi eos reiciendis optio ratione exercitationem vel,
+        quae consequatur architecto. Iure consequatur, dignissimos corporis
+        dolore quasi ipsa, inventore itaque officiis harum expedita ad!
+      </p>
+
+        <h2 align="center" >Horario</h2></li>
+        <ul align="center" style="list-style: none;">
+            <li>Lunes a jueves de 8:00 a.m. a 5:00 p.m. </li>             
+            <li>Viernes de 8:00 a.m. a 4:00 p.m. </li>
+            <li>Sábados de 9:00 a.m. a 1:00 p.m.</li>
+        </ul>
+    </ul>
+    </section>
+    <footer>
+        <label style="display: flex; justify-content: center; padding-bottom: 10px;">
+            <input type="datetime-local">
+            fecha
+        </label>
+        <div style="background-color: #09c17b; padding: 10px;">
+            <p align="center" style="color: rgb(255, 255, 255);">Hecho por Jhoan Gomez, Miguel Angel Madroñero e Isabel Moreno </p>
+        </div>
+    </footer>
+  </body>
+</html>
