@@ -1,7 +1,17 @@
+*{
+    background-color: #f0eaea;
+}
+
 .hero__nav_container {
 display: flex; 
 align-items: center; 
 justify-content: space-between;
+}
+
+.hero__name{
+    color: #0b724b;
+    font-weight: bold;
+    font-size: larger;
 }
 
 .hero__logo {
@@ -10,17 +20,23 @@ justify-content: space-between;
 
 .hero__name {
     align-items: center;
+    padding: 15% 0%;
 }
 
 .hero__links {
     display: flex; 
     gap: 30px;
     padding-right: 5%;
+    
 }
 
 .hero__link {
+    font-size: larger;
     text-decoration: none; 
-    color: #09c17b;
+    color: #ffffff;
+    background-color: #0b724b;
+    padding: 10px;
+    border-radius: 20px;
 }
 
 .hero__main {
@@ -31,7 +47,7 @@ justify-content: space-between;
 .hero__title {
     align-items: center; 
     width: 50%; 
-    color: #09c17b; 
+    color: #0b724b;
     font-size: 30px; 
     text-align: left; 
     align-items: center;
@@ -39,7 +55,7 @@ justify-content: space-between;
 }
 
 .hero__estrella {
-    width: 50%;
+    width: 40%;
     padding: 5%;
 }
 
@@ -51,36 +67,51 @@ justify-content: space-between;
 .extern_div{
     display: flex;
     justify-content: center;
+    
 }
  
 div.horario_div{
     padding: 2%;
     display: inline-block;
-    background-color: #09c17b;
+    background-color: #0b724b;
     margin: 0;
     border-radius: 20px;
+    color: #ffffff;
 }
  
 h3.horario_div{
-    font-size: large;
-    font-weight: normal;
+    font-size: larger;
     text-align: center;
+    background-color: #0b724b;
 }
  
 ul.horario_div{
-    line-height: 24px;
+    background-color: #0b724b;
+}
+
+li.horario_div{
+    line-height: 32px;
+    background-color: #0b724b;
 }
 
 .fecha {
     display: flex; 
     justify-content: center; 
     padding: 5%;
+    border: 50px;
 }
 
 .hero_footer {
+    
+    height: 100%;
+    background-color: #0b724b; 
+    padding: 10px;
+    color: #ffffff;
+}
+
+p.hero_footertext{
+    background-color: #0b724b;
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: 100%;
-    background-color: #09c17b; padding: 10px;
+    line-height: 40px;
 }
