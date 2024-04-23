@@ -4,7 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Centro comunitario</title>
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./style(index).css" />
   </head>
   <body>
     <!-- <header>
@@ -32,7 +33,7 @@
     <header class="hero">
       <nav class="hero__nav_container">
         <figure class="hero__logo">
-          <img src="./pasillo/stars.svg" alt="" class="hero__estrella" />
+          <img src="./imagenes/stars.svg" alt="" class="hero__estrella" />
           <p class="hero__name">Centro comunitario</p>
         </figure>
         <div class="hero__links">
@@ -45,7 +46,7 @@
     <section>
       <div class="hero__main">
         <h1 class="hero__title">Tu centro comunitario local</h1>
-        <img src="./pasillo/centro.jpg" class="hero__estrella" />
+        <img src="./imagenes/centro.jpg" class="hero__estrella" />
       </div>
       <div class="descripcion">
       <p>
@@ -65,10 +66,10 @@
       <div class="extern_div">
         <div class="horario_div">
           <h3 class="horario_div">Horarios de atención</h3>
-          <ul>
-            <li>lunes a viernes 8am a 12 pm - 13:30pm a 17:30pm</li>
-            <li>Sabado 8am a 12pm</li>
-            <li>Dias festivos no hay atencion</li>
+          <ul class="horario_div">
+            <li class="horario_div">lunes a viernes (8am a 12 pm - 13:30pm a 17:30pm)</li>
+            <li class="horario_div">(Sabado 8am a 12pm)</li>
+            <li class="horario_div">Dias festivos no hay atencion</li>
           </ul>
         </div>
       </div>
@@ -76,13 +77,18 @@
     <footer>
       <label class="fecha">
         <input type="datetime-local" />
-        fecha
+        
       </label>
       <div class="hero_footer">
         <p class="hero_footertext">
           Hecho por Jhoan Gomez, Miguel Angel Madroñero e Isabel Moreno
+          <br>
         </p>
+
+        <p class="hero_footertext">Generation Colombia</p>
       </div>
     </footer>
+
+    <script src="javascript.js"></script>
   </body>
 </html>
